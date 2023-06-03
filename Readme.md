@@ -22,9 +22,8 @@ A powerful script generator built using the OpenAI API and the MERN stack (Mongo
 2. Navigate to the project directory: `cd script-sensei`
 3. Install dependencies: `npm install`
 4. Set up environment variables:
-   - Rename the `.env.example` file to `.env`.
-   - Fill in the required environment variables such as OpenAI API key.
-5. Run the application: `npm start`
+   - Create a .env file and add environment variables such as OpenAI API key.
+5. Run the application: `npm run dev`
 6. Open the application in your browser at `http://localhost:XXXX`.
 
 ## Usage
@@ -39,10 +38,11 @@ A powerful script generator built using the OpenAI API and the MERN stack (Mongo
 Contributions are welcome! If you'd like to contribute to this project, please follow these steps:
 
 1. Fork the repository.
-2. Create a new branch: `git checkout -b feature/your-feature`
-3. Make your changes and commit them: `git commit -m 'Add your feature'`
-4. Push to the original branch: `git push origin feature/your-feature`
-5. Create a pull request and describe your changes.
+2. Star the repository.
+3. Create a new branch: `git checkout -b feature/your-feature`
+4. Make your changes and commit them: `git commit -m 'Add your feature'`
+5. Push to the original branch: `git push origin feature/your-feature`
+6. Create a pull request and describe your changes.
 
 ## License
 
