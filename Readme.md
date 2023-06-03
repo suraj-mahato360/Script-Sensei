@@ -18,23 +18,21 @@ A powerful script generator built using the OpenAI API and the MERN stack (Mongo
 
 ## Installation
 
-1. Clone the repository: `git clone https://github.com/your-username/script-generator.git`
+1. Clone the repository: `git clone https://github.com/suraj-mahato360/Script-Sensei.git`
 2. Navigate to the project directory: `cd script-sensei`
 3. Install dependencies: `npm install`
 4. Set up environment variables:
    - Rename the `.env.example` file to `.env`.
-   - Fill in the required environment variables such as OpenAI API key and MongoDB connection URI.
+   - Fill in the required environment variables such as OpenAI API key.
 5. Run the application: `npm start`
-6. Open the application in your browser at `http://localhost:3000`.
+6. Open the application in your browser at `http://localhost:XXXX`.
 
 ## Usage
 
-1. Create an account or log in to your existing account.
-2. Access the script generator feature.
-3. Customize the script parameters such as genre, length, characters, etc.
-4. Click the "Generate Script" button to generate a script using the OpenAI API.
-5. Save and manage your generated scripts in your account.
-6. Export scripts in your preferred file format.
+1. Access the script generator feature.
+2. Customize the script parameters such as genre, length, characters, etc.
+3. Click the "Generate Script" button to generate a script using the OpenAI API.
+4. Export scripts in your preferred file format.
 
 ## Contributing
 
@@ -52,4 +50,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Contact
 
-For any inquiries or questions, please contact [your-email@example.com](mailto:your-email@example.com).
+For any inquiries or questions, please contact [suryamahato081@gmail.com].
