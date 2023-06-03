@@ -33,7 +33,7 @@ const Prompt = () => {
                 </div>
                 <div className='text-white'>
                     <label>Type:
-                    <select className=" w-full p-[14px] bg-slate-800 outline-0 border-[none] text-[15px] rounded-[8px] mb-[10px]" name="genre" id="genre" name="Type" id="type">
+                    <select className=" w-full p-[14px] bg-slate-800 outline-0 border-[none] text-[15px] rounded-[8px] mb-[10px]" name="Type" id="type">
                         <option value="ads">Advertisment</option>
                         <option value="contentcreation">Content Creation</option>
                     </select>
@@ -42,7 +42,7 @@ const Prompt = () => {
             </div>
             <div class="py-2  text-white">
                 <label >Audience:
-                <select className=" w-full p-[14px] bg-slate-800 outline-0 border-[none] text-[15px] rounded-[8px] mb-[10px]" name="genre" id="genre"  name="Audience" id="audience">
+                <select className=" w-full p-[14px] bg-slate-800 outline-0 border-[none] text-[15px] rounded-[8px] mb-[10px]" name="Audience" id="audience">
                     <option value="child">Children</option>
                     <option value="public">General public</option>
                 </select>
