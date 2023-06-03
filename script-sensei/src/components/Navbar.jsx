@@ -1,5 +1,4 @@
 import Heroimg from "../assets/Hero-img.svg"
-import React from "react";
 
 const Navbar = () => {
   return (

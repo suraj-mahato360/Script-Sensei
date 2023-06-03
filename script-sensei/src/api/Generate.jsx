@@ -15,11 +15,17 @@ const Generate = async  (req, res) => {
     return;
   }
 
-  const idea = req.body.idea || '';
-  const type = req.body.type || '';
+  const key_value = req.body.key_value || '';
+  const product_name = req.body.product_name || '';
+  const product_desc = req.body.product_desc || '';
+  const company_name = req.body.company_name || '';
   const audience = req.body.audience || '';
-  const genre = req.body.genre || '';
-  if (idea.trim().length === 0) {
+  const cta = req.body.cta || '';
+  const duration = req.body.duration || '';
+  const tone = req.body.tone || '';
+  const other = req.body.other || '';
+
+  if (key_value.trim().length === 0) {
     res.status(400).json({
       error: {
         message: "Please enter a valid idea",
@@ -30,9 +36,8 @@ const Generate = async  (req, res) => {
 
   try {
     const completion = await openai.createCompletion({
-      model: "gpt-3.5-turbo",
-      prompt: `Assume you are a advertisement script writer and you only do script writing on basis of title, genre, type and audience. Idea will be text base on which script must be generated. Genre can be Action, Comedy, Drama, Science Fiction, Suspense, Thriller, Romance, Horror, Mystery, Fantasy, . Type is purpose of script which can be Content Creation, Advertisement, General. Audience are target audience for script which can be Children, Teen, Adult, Old Age or General which means all age group.
-      Here is a Request: idea:${idea} type: ${type} Audience: ${audience} genre: ${genre}`,
+      model: "text-davinci-003",
+      prompt: `As an experienced script writer, generate a compelling advertisement script and post for a ${duration} seconds ad promoting ${company_name} by ${product_name}. The target audience is ${audience}. Focus on the key message or value proposition: ${key_value}. Highlight the following features: ${product_desc}. Maintain a ${tone} tone that aligns with ${company_name}'s brand identity. End the script with a strong call-to-action (CTA) prompting viewers to ${cta}. ${other}, write post for all the social media platform(s) for the advertisement's post.`,
       temperature: 0.6,
     });
     res.status(200).json({ result: completion.data.choices[0].text });

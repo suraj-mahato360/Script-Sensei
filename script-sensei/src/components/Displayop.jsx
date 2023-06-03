@@ -1,9 +1,9 @@
 
-const Displayop = () => {
+const Displayop = (props) => {
   return (
     <div>
         <div>
-            raw
+            <p>{props.result}</p>
         </div>
     </div>
   )
