@@ -38,7 +38,7 @@ const Hero = () => {
                 Speak to Sales
               </a>
             </div>
-            <div className="hidden lg:mt-0 lg:col-span-5 lg:flex">
+            <div class="hidden lg:mt-0 lg:col-span-5 lg:flex">
               <img
                 src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/hero/phone-mockup.png"
                 alt="mockup"
@@ -47,7 +47,7 @@ const Hero = () => {
           </div>
         </section>
         <h3>Motto</h3>
-        <h3 className="box-border h-32 w-3/4 p-4 border-4 px-8">
+        <h3 class="box-border h-32 w-3/4 p-4 border-4 px-8 text-white">
           Use long descriptive titles Go through every step to ensure your
           content stays relevant Outlines that are long and more specific
           generate the most relevant content Use supercharge writing quality to
