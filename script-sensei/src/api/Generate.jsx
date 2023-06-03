@@ -52,6 +52,11 @@ const Generate = async  (req, res) => {
   }
 }
 
+// Generate a persuasive [advertisement length] script promoting [product name] by [company name]. The target audience is [target audience description]. The key message: [key message or value proposition]. Highlight specific features/benefits: [specific features or benefits]. The tone/style should be [serious, humorous, emotional, etc.], aligned with [company name]'s brand. Conclude with a strong CTA to [CTA action]. Any additional info or requirements: [additional requirements].
+
+// Craft an engaging script that captures attention, prompts action, and reflects [company name]'s brand. Your creativity is key.
+
+
 // function generatePrompt(animal) {
 //   const capitalizedAnimal =
 //     animal[0].toUpperCase() + animal.slice(1).toLowerCase();
