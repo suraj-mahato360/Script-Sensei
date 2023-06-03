@@ -1,4 +1,4 @@
-
+import Advertise from "../assets/ads-img.svg"
  const About = ()=> {
   return (
     <div className="flex justify-evenly mt-40">
@@ -6,9 +6,15 @@
           
           
         </div>
+        <div className="hidden w-80 lg:col-span-5 lg:flex">
+              <img
+                src={Advertise}
+                alt="Script Sensei"
+              ></img>
+            </div>
         <div className="mx-auto max-w-2xl lg:mx-0">
           <h2 className="text-xl italic font-bold tracking-tight text-white sm:text-4xl">
-            Reach more people
+            What is Script Sensei ?
           </h2>
           <p className="mt-6 text-lg  italic leading-8 text-gray-300">
             ScriptSensei is a powerful script generator website designed to
