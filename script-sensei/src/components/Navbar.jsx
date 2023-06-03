@@ -5,7 +5,7 @@ const Navbar = () => {
     <nav className="bg-gray-800 py-4 px-6 flex items-center justify-between">
       <div className="flex items-center">
         <img
-          src="/path/to/logo.png"
+          src="#"
           alt="Logo"
           className="h-8 w-8 mr-2"
         />
@@ -13,7 +13,7 @@ const Navbar = () => {
       </div>
       <div className="flex items-center">
         <img
-          src="/path/to/avatar.png"
+          src="#"
           alt="Avatar"
           className="h-8 w-8 rounded-full"
         />
