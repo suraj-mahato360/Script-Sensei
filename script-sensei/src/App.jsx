@@ -2,6 +2,7 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Prompt from "./components/Prompt";
 import About from "./components/about";
+import 'remixicon/fonts/remixicon.css'
 import "./index.css";
 import Footer from "./components/footer";
 
@@ -11,7 +12,6 @@ function App() {
       <Navbar />
       <Hero />
       <Prompt />
-      <h1 className="text-center">hello user</h1>
       <About />
       <Footer />
     </>

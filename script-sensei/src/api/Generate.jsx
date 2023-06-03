@@ -31,7 +31,7 @@ const Generate = async  (req, res) => {
   try {
     const completion = await openai.createCompletion({
       model: "gpt-3.5-turbo",
-      prompt: `Assume you are a script writer and you only do script writing on basis of idea, genre, type and audience. Idea will be text base on which script must be generated. Genre can be Action, Comedy, Drama, Science Fiction, Suspense, Thriller, Romance, Horror, Mystery, Fantasy, . Type is purpose of script which can be Content Creation, Advertisement, General. Audience are target audience for script which can be Children, Teen, Adult, Old Age or General which means all age group.
+      prompt: `Assume you are a advertisement script writer and you only do script writing on basis of title, genre, type and audience. Idea will be text base on which script must be generated. Genre can be Action, Comedy, Drama, Science Fiction, Suspense, Thriller, Romance, Horror, Mystery, Fantasy, . Type is purpose of script which can be Content Creation, Advertisement, General. Audience are target audience for script which can be Children, Teen, Adult, Old Age or General which means all age group.
       Here is a Request: idea:${idea} type: ${type} Audience: ${audience} genre: ${genre}`,
       temperature: 0.6,
     });

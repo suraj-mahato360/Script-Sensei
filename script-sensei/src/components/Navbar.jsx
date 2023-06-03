@@ -1,36 +1,17 @@
-// import React from "react";
-
-// const Navbar = () => {
-//   return (
-//     <nav className="bg-gray-800 py-4 px-6 flex items-center justify-between">
-//       <div className="flex items-center">
-//         <img src="#" alt="Logo" className="h-8 w-8 mr-2" />
-//         <h1 className="text-white text-lg font-semibold">ScriptSensei</h1>
-//       </div>
-//       <div className="flex items-center">
-//         <img src="#" alt="Avatar" className="h-8 w-8 rounded-full" />
-//         <span className="text-white ml-2">Username</span>
-//       </div>
-//     </nav>
-//   );
-// };
-
-// export default Navbar;
-
-//New Navbar
-
+import Heroimg from "../assets/Hero-img.svg"
 import React from "react";
 
 const Navbar = () => {
   return (
     <nav className="bg-gray-800 py-4 px-6 flex items-center justify-between">
       <div className="flex items-center">
-        <img src="#" alt="Logo" className="h-8 w-8 mr-2" />
-        <h1 className="text-white text-lg font-semibold">ScriptSensei</h1>
+        <img src={Heroimg} alt="Logo" className="h-14 w-14 rounded-md" />
+        <h1 className="text-white font-bold text-2xl"><span className="text-blue-500">Script</span> Sensei</h1>
       </div>
       <div className="flex items-center">
-        <img src="#" alt="Avatar" className="h-8 w-8 rounded-full" />
-        <span className="text-white ml-2">Username</span>
+        <div className="px-4 py-3 bg-slate-700 rounded-full">
+      <i className="ri-user-fill text-2xl text-blue-500"></i>
+      </div>
       </div>
     </nav>
   );
