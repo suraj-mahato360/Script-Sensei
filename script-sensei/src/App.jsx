@@ -1,6 +1,7 @@
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import Prompt from './components/Prompt'
+import 'remixicon/fonts/remixicon.css'
 import './index.css'
 
 function App() {
