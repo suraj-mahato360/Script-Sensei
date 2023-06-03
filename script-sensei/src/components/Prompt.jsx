@@ -5,12 +5,19 @@ const Prompt = () => {
         <form class="flex items-center  justify-center">
         <div>
             <div>
-                <input type="text" placeholder="Idea" />
+            <div class="py-6">
+            <input className='w-full p-[14px] bg-slate-800 outline-0 border-[none] text-[15px] rounded-[8px] mb-[10px]' type="text" placeholder="Idea" />
             </div>
-            <div class="flex items-center">
+            <div>
+                <button>
+                <i class="ri-arrow-right-double-line"></i>
+                </button>
+            </div>
+            </div>
+            <div className="flex text-white py-2 gap-8 ">
                 <div>
                     <label>Genre:
-                    <select name="genre" id="genre">
+                    <select className=" w-full p-[14px] bg-slate-800 outline-0 border-[none] text-[15px] rounded-[8px] mb-[10px]" name="genre" id="genre">
                         <option value="action">Action</option>
                         <option value="comedy">Comedy</option>
                         <option value="suspence">Suspense</option>
@@ -24,21 +31,18 @@ const Prompt = () => {
                     </select>
                     </label>
                 </div>
-                <div>
+                <div className='text-white'>
                     <label>Type:
-                    <select name="Type" id="type">
-                        <option value="casual">Casual</option>
-                        <option value="professional">Professional</option>
-                        <option value="funny">Funny</option>
-                        <option value="informative">Informative</option>
-                        <option value="creative">Creative</option>
+                    <select className=" w-full p-[14px] bg-slate-800 outline-0 border-[none] text-[15px] rounded-[8px] mb-[10px]" name="genre" id="genre" name="Type" id="type">
+                        <option value="ads">Advertisment</option>
+                        <option value="contentcreation">Content Creation</option>
                     </select>
                     </label>
                 </div>
             </div>
-            <div>
-                <label>Audience:
-                <select name="Audience" id="audience">
+            <div class="py-2  text-white">
+                <label >Audience:
+                <select className=" w-full p-[14px] bg-slate-800 outline-0 border-[none] text-[15px] rounded-[8px] mb-[10px]" name="genre" id="genre"  name="Audience" id="audience">
                     <option value="child">Children</option>
                     <option value="public">General public</option>
                 </select>
