@@ -27,11 +27,8 @@ const Hero = () => {
                 repeat={Infinity}
                 style={{color:'grey',marginRight:'44px',fontSize:'24px'}}/>
               <h3 className=" h-32 px-8  text-white mt-4">
-          Use long descriptive titles Go through every step to ensure your
-          content stays relevant Outlines that are long and more specific
-          generate the most relevant content Use supercharge writing quality to
-          produce more sophisticated content, deeper arguments, and improved in
-          text references
+                By Leveraging the Power of AI, Empower your brand with impactful scripts that engage, inspire, and leave a lasting impression. 
+                Say goodbye to the guesswork and elevate your advertising campaigns with ScriptSensei, your trusted partner in AI-driven ad script generation.
         </h3>
         <a href="#prompt" className="p-4 bg-blue-500 rounded-md text-white hover:bg-blue-700"><button>Get Started</button></a>
             </div>
