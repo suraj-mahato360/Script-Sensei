@@ -3,32 +3,32 @@ const people = [
     name: "Suraj Mahto",
     role: "Web Developer",
     imageUrl: "https://th.bing.com/th/id/OIG.dr5Z.epXE06TLL_V.7Y2?pid=ImgGn",
-    linkedin: "#",
-    twitter: "#",
+    linkedin: "https://www.linkedin.com/in/suraj-mahato360/",
+    twitter: "https://twitter.com/SurajMahato2002",
   },
 
   {
     name: "Suraj Rajbhar",
     role: "Web Developer",
     imageUrl: "https://th.bing.com/th/id/OIG.dr5Z.epXE06TLL_V.7Y2?pid=ImgGn",
-    linkedin: "#",
-    twitter: "#",
+    linkedin: "https://www.linkedin.com/in/surajrajbhar5",
+    twitter: "https://twitter.com/SURAJRAJBH90420",
   },
 
   {
     name: "Aditya Rajauria",
     role: "Web Developer",
     imageUrl: "https://th.bing.com/th/id/OIG.dr5Z.epXE06TLL_V.7Y2?pid=ImgGn",
-    linkedin: "#",
-    twitter: "#",
+    linkedin: "https://www.linkedin.com/in/aditya-rajauria",
+    twitter: "https://twitter.com/AR93500395",
   },
 
   {
     name: "Sushan Uchil",
     role: "Web Developer",
     imageUrl: "https://th.bing.com/th/id/OIG.dr5Z.epXE06TLL_V.7Y2?pid=ImgGn",
-    linkedin: "#",
-    twitter: "#",
+    linkedin: "https://www.linkedin.com/in/sushanuchil/",
+    twitter: "https://twitter.com/Capedbaldy_7",
   },
 
   // More people...
@@ -36,13 +36,13 @@ const people = [
 
 export default function Ourteam() {
   return (
-    <div className="flex justify-evenly bg-grey-900 py-24 sm:py-32  ">
-      <div className="mx-auto grid max-w-7xl gap-x-8 gap-y-20 px-6 lg:px-8 xl:grid-cols-3">
+    <div className="flex justify-evenly bg-grey-900 py-24 items-center">
+      <div className="mx-auto grid max-w-7xl items-center gap-x-8 gap-y-20 px-6">
         <div className="max-w-4xl ">
-          <h2 className="text-3xl font-bold tracking-tight  text-white sm:text-4xl italic">
+          <h2 className="text-3xl font-bold tracking-tight  text-white text-center italic">
             Our Team
           </h2>
-          <p className="mt-6 text-lg leading-8 text-gray-400 italic">
+          <p className="mt-6 text-lg text-center leading-8 text-gray-400 italic">
             At ScriptSensei, our team is composed of passionate scriptwriters,
             experienced software developers, and creative designers who
             collaborate to create an exceptional script generation experience.
@@ -54,7 +54,7 @@ export default function Ourteam() {
         </div>
         <ul
           role="list"
-          className="grid gap-x-8 gap-y-12 sm:grid-cols-2 sm:gap-y-16 xl:col-span-2"
+          className="grid gap-x-8 gap-y-12 grid-cols-2 md:grid-cols-1 md:items-center"
         >
           {people.map((person) => (
             <li key={person.name}>
@@ -73,12 +73,6 @@ export default function Ourteam() {
                   </p>
                 </div>
                 <div className="flex items-center gap-x-6">
-                  {/* <p className="text-sm font-semibold leading-6 text-indigo-600">
-                    {person.linkedin}
-                  </p>
-                  <p className="text-sm font-semibold leading-6 text-indigo-600">
-                    {person.twitter}
-                  </p> */}
                   <a href={person.linkedin}>
                     <svg
                       xmlns="http://www.w3.org/2000/svg"

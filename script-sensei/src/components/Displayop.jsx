@@ -1,11 +1,8 @@
+import Response from "./Response"
 
 const Displayop = (props) => {
   return (
-    <div>
-        <div>
-            <p>{props.result}</p>
-        </div>
-    </div>
+    <Response result={props.result} />
   )
 }
 

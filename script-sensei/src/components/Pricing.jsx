@@ -10,7 +10,7 @@ const includedFeatures = [
 export default function Pricing() {
   return (
     <div className="bg-grey-800 py-20 sm:py-28">
-      <div className="mx-auto max-w-7xl px-6 lg:px-8">
+      <div className="mx-auto max-w-7xl px-6 ">
         {/* <div className="mx-auto max-w-2xl sm:text-center">
           <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
             Simple no-tricks pricing
@@ -20,8 +20,8 @@ export default function Pricing() {
             quasi iusto modi velit ut non voluptas in. Explicabo id ut laborum.
           </p>
         </div> */}
-        <div className="mx-auto mt-16 max-w-2xl rounded-3xl ring-1 ring-gray-200 sm:mt-20 lg:mx-0 lg:flex lg:max-w-none">
-          <div className="p-8 sm:p-10 lg:flex-auto">
+        <div className="mx-auto mt-16 max-w-2xl rounded-3xl ring-1 ring-gray-200 ">
+          <div className="p-8 ">
             <h3 className="text-2xl font-bold tracking-tight text-gray-300">
               Monthly Membership
             </h3>
@@ -43,26 +43,22 @@ export default function Pricing() {
             >
               {includedFeatures.map((feature) => (
                 <li key={feature} className="flex gap-x-3 text-gray-400">
-                  {/* <CheckIcon
-                    className="h-6 w-5 flex-none text-indigo-600"
-                    aria-hidden="true"
-                  /> */}
                   {feature}
                 </li>
               ))}
             </ul>
           </div>
-          <div className="-mt-2 p-2 lg:mt-0 lg:w-full lg:max-w-md lg:flex-shrink-0">
-            <div className="rounded-2xl bg-gray-50 py-10 text-center ring-1 ring-inset ring-gray-900/5 lg:flex lg:flex-col lg:justify-center lg:py-16">
+          <div className="-mt-2 p-2 ">
+            <div className="rounded-2xl bg-gray-800 text-white py-10 text-center ring-1 ring-inset ring-gray-900/5 ">
               <div className="mx-auto max-w-xs px-8">
-                <p className="text-base font-semibold text-gray-600">
+                <p className="text-base font-semibold">
                   Unlock, Discover, Repeat
                 </p>
                 <p className="mt-6 flex items-baseline justify-center gap-x-2">
-                  <span className="text-5xl font-bold tracking-tight text-gray-900">
+                  <span className="text-5xl font-bold tracking-tight">
                     $5
                   </span>
-                  <span className="text-sm font-semibold leading-6 tracking-wide text-gray-600">
+                  <span className="text-sm font-semibold leading-6 tracking-wide">
                     USD
                   </span>
                 </p>
@@ -72,7 +68,7 @@ export default function Pricing() {
                 >
                   Get access
                 </a>
-                <p className="mt-6 text-xs leading-5 text-gray-600">
+                <p className="mt-6 text-xs leading-5 text-gray-50">
                   Invoices and receipts available for easy company reimbursement
                 </p>
               </div>
