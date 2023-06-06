@@ -1,4 +1,9 @@
 {
+   "name": "script-sensei",
+  "scripts": {
+    "dev": "nodemon server",
+    "build": "npm i"
+  },
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^16.1.4",

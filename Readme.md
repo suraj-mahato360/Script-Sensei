@@ -14,16 +14,19 @@ A powerful script generator built using the OpenAI API and the MERN stack (Mongo
 ## Technologies Used
 
 - Front-end: React.js, Tailwind CSS
-- Back-end: Open AI API
+- Back-end: Open AI API, Express, NodeJs
 
 ## Installation
 
 1. Clone the repository: `git clone https://github.com/suraj-mahato360/Script-Sensei.git`
 2. Navigate to the project directory: `cd script-sensei`
 3. Install dependencies: `npm install`
-4. Set up environment variables:
-   - Create a .env file and add environment variables such as OpenAI API key.
-5. Run the application: `npm run dev`
+4. Navigate to the project directory: `cd server`
+5. Install dependencies: `npm install`
+6. Set up environment variables:
+   - Create a .env file in server folder and add environment variable named as API_KEY and give it your openai API key as value.
+5. Run the application(in script-sensei): `npm run dev`
+5. Run the server: `nodemon server`
 6. Open the application in your browser at `http://localhost:XXXX`.
 
 ## Usage

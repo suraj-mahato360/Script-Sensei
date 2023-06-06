@@ -58,7 +58,7 @@ const Prompt = () => {
   // }[result])
 
   return (
-    <div id="prompt" className="flex items-center flex-col h-[80vh] md:h-full">
+    <div id="prompt" className="flex items-center flex-col h-full md:h-full">
       <div className="text-center text-4xl text-white mb-8 font-mono mt-10">
         <h2>Advertisement Details</h2>
       </div>

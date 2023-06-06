@@ -7,7 +7,7 @@ const Hero = () => {
       <section className="bg-white dark:bg-gray-900 h-[100vh] flex items-center md:h-full">
         <div>
           <div className="flex px-4 py-8 text-left justify-evenly items-center mb-14 md:flex-wrap-reverse md:py-2 md:mb-2">
-            <div className="w-[45%] h-full md:text-center md:w-full md:p-2">
+            <div className="w-[37%] h-full md:text-center md:w-full md:p-2">
               <h1 className="mb-4 text-4xl font-extrabold leading-none dark:text-white">
                 <span className="text-blue-400">Script </span> Sensei
               </h1>
