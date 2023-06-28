@@ -4,6 +4,13 @@
 
 A powerful script generator built using the OpenAI API and the MERN stack (MongoDB, Express, React, Node.js). This application allows users to effortlessly generate high-quality scripts for Advertisements.
 
+##Demonstration
+
+https://github.com/suraj-mahato360/Script-Sensei/assets/97820189/f740e049-f388-4dc0-8fb4-48b03685f143
+
+
+
+
 ## Features
 
 - Easy-to-use interface for generating scripts
